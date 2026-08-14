@@ -1,1 +1,121 @@
-placeholder
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matías Wenger | Architecture // Logic // Code</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">./MW_</div>
+            <ul class="nav-links">
+                <li><a href="#about">01_About</a></li>
+                <li><a href="#projects">02_Projects</a></li>
+                <li><a href="#skills">03_Skills</a></li>
+                <li><a href="#contact">04_Contact</a></li>
+            </ul>
+            <button id="theme-toggle" aria-label="Toggle dark mode">
+                <span class="sun">☼</span>
+                <span class="moon">☽</span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero">
+            <div class="hero-content">
+                <span class="status-line">> System.init(Matías_Wenger);</span>
+                <h1>SYSTEM ARCHITECT // BACKEND DEVELOPER</h1>
+                <p class="hero-p">I build scalable systems, robust APIs, and clean architectures. I translate inventory logic and high-pressure bartending workflows into efficient, reliable codebases.</p>
+                <div class="cta-group">
+                    <a href="https://github.com/solaire27/DSY1103-Gamerbox-07" class="cta-button">>_View_Work</a>
+                    <a href="#" class="cta-button secondary">>_Download_CV</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about">
+            <h2><span class="number">01.</span> About_Me</h2>
+            <div class="about-grid">
+                <p>I am a Software Engineering student focused on backend architecture. My unique background in high-volume hospitality management has sharpened my ability to handle concurrency, manage inventory logic, and optimize complex workflows under pressure. I now apply these "real-world algorithms" to writing clean, maintainable Java.</p>
+                <div class="terminal-box">
+                    <p class="terminal-header">matrix@matias:~$ neofetch</p>
+                    <p><span class="t-key">OS</span>: Ubuntu 24.04 LTS</p>
+                    <p><span class="t-key">Kernel</span>: 6.8.0-31-generic</p>
+                    <p><span class="t-key">Uptime</span>: 23 years (goblin mode)</p>
+                    <p><span class="t-key">Shell</span>: bash 5.2.21</p>
+                    <p><span class="t-key">DE</span>: GNOME 46.0</p>
+                    <p><span class="t-key">Focus</span>: Distributed Systems</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2><span class="number">02.</span> Featured_Projects</h2>
+            <div class="project-list">
+                <!-- Project 1 -->
+                <article class="project-item">
+                    <div class="project-header">
+                        <h3>GameBox</h3>
+                        <div class="tech-stack">
+                            <span>Java</span>
+                            <span>Spring Boot</span>
+                            <span>Microservices</span>
+                        </div>
+                    </div>
+                    <p class="project-details">Architected as a distributed system utilizing 8 distinct microservices. Configured with Maven, Feign clients for inter-service communication, and H2/Oracle SQL.</p>
+                    <p class="project-logic">>_Logic: Implemented eventual consistency model between Inventory and Review services.</p>
+                    <a href="https://github.com/solaire27/DSY1103-Gamerbox-07" class="project-link">[GitHub_Repo]</a>
+                </article>
+                
+                <!-- Add more project articles here -->
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2><span class="number">03.</span> Technical_Skills</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Backend_Architecture</h3>
+                    <ul>
+                        <li>>_ Java / Spring Boot</li>
+                        <li>>_ Microservices Design</li>
+                        <li>>_ REST API Design</li>
+                        <li>>_ System Scability</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Databases_Tools</h3>
+                    <ul>
+                        <li>>_ SQL (Oracle, H2)</li>
+                        <li>>_ Git / Maven</li>
+                        <li>>_ Docker (Basic)</li>
+                        <li>>_ Bash Scripting</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact">
+        <h2><span class="number">04.</span> Connect_System</h2>
+        <div class="footer-content">
+            <p>> status: OPEN_FOR_INTERNSHIPS</p>
+            <div class="social-links">
+                <a href="https://github.com/solaire27">[GitHub]</a>
+                <a href="#">[LinkedIn]</a>
+                <a href="mailto:your.email@example.com">[Email]</a>
+            </div>
+            <p class="copyright">System.exit(0); &copy; 2026 Matías Wenger.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
